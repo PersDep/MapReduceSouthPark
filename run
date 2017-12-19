@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./SouthPark.py $1 & (python -m nltk.downloader punkt; sleep 2; python mincemeatpy/mincemeat.py -p changeme localhost)
